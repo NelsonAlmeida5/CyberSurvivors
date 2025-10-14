@@ -107,7 +107,7 @@ Sprites and visual assets were also created with the help of **ChatGPT (OpenAI)*
 
 ## 🙌 Credits
 
-- **Development**: [Christopher Ristic (Chris0xdeadbeef), Somchai Griessen]  
+- **Development**: [Christopher Ristic (Chris0xdeadbeef), Somchai Griessen (Somchai-CH)]  
 - **Game Design Support**: ChatGPT (OpenAI)  
 - **Sprites & Visual Assets**: Generated/assisted by ChatGPT
 
