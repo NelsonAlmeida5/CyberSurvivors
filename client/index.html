@@ -1,43 +1,51 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="utf-8" />
-  <title>Cyber Survivors</title>
-  <link rel="stylesheet" href="./style.css" />
-  <link rel="icon" href="./sprites/favicon.png">
-  <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
-</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Cyber Survivors</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./sprites/favicon.png" />
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+  </head>
 
-<body>
-  <!-- MENU ----------------------------------------------------------- -->
-  <div id="menu">
-    <h1>💻 Cyber Survivors</h1>
+  <body>
+    <!-- MENU ----------------------------------------------------------- -->
+    <div id="menu">
+      <h1>💻 Cyber Survivors</h1>
 
-    <p>Ton ID : <span id="playerId">…</span></p>
-    <p>Joueurs connectés : <span id="playerCount">0</span></p>
+      <p>Ton ID : <span id="playerId">…</span></p>
+      <p>Joueurs connectés : <span id="playerCount">0</span></p>
 
-    <label>
-      <input type="checkbox" id="coopMode" />
-      Mode coopératif
-    </label>
+      <label>
+        <input type="checkbox" id="coopMode" />
+        Mode coopératif
+      </label>
 
-    <br><br>
+      <br /><br />
 
-    <!-- Nouvelle option : activer/désactiver la musique -->
-    <label>
-      <input type="checkbox" id="musicToggle" checked />
-      Musique du menu
-    </label>
+      <!-- Nouvelle option : activer/désactiver la musique -->
+      <label>
+        <input type="checkbox" id="musicToggle" checked />
+        Musique du menu
+      </label>
 
-    <br><br>
-    <button id="startBtn">🎮 Jouer</button>
-  </div>
+      <br /><br />
+      <button id="startBtn">🎮 Jouer</button>
+      <br /><br />
+      <a
+        href="https://github.com/Chris0xdeadbeef/CyberSurvivors"
+        target="_blank"
+        class="github-link"
+      >
+        🔗 Voir le dépôt GitHub
+      </a>
+    </div>
 
-  <!-- CANVAS PHASER --------------------------------------------------- -->
-  <div id="gameContainer"></div>
+    <!-- CANVAS PHASER --------------------------------------------------- -->
+    <div id="gameContainer"></div>
 
-  <!-- Scripts JS -->
-  <script type="module" src="./audio.js"></script>
-  <script type="module" src="./main.js?v=20444554535"></script>
-</body>
+    <!-- Scripts JS -->
+    <script type="module" src="./audio.js"></script>
+    <script type="module" src="./main.js?v=20444554535"></script>
+  </body>
 </html>
